@@ -1,2 +1,37 @@
 @charset "UTF-8";
 
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-url: url(../images/bg-night-mobile.jpg);
+    --switch-bg-url: ;
+    --stroke-collor: ;
+    --highlight-color: ;
+    --surface-color: ;
+    --surface-color-hover: ;
+    --text-color: ;
+}
+
+.light {
+    --bg-url: ;
+    --switch-bg-url: ;
+    --stroke-collor: ;
+    --highlight-color: ;
+    --surface-color: ;
+    --surface-color-hover: ;
+    --text-color: ;
+}
+
+body {
+    background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
+}
+
+body * {
+    font-family: Arial, Helvetica, sans-serif; /* A DEFINIR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    color: var(--text-color);
+}
