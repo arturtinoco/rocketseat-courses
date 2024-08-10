@@ -1,2 +1,2 @@
 # rocketseat-courses
- Projects and assets for practice
+## Projects and assets for practice
