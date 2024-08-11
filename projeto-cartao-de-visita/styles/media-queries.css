@@ -29,13 +29,16 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        align-content: space-between;
+        min-height: 400px;
     }
 
     header {
         display: flex;
         flex-direction: column;
-        float: left;
+        align-items: center;
         max-height: 280px;
+        margin-top: 0px 10px;
     }
     
     header h1 {
@@ -44,69 +47,39 @@
     }
     
     main {
-        border: 1px solid green;
         flex-direction: row;
-        align-content: flex-start;
-        float: right;
+        align-content: space-evenly;
         max-width: 480px;
+        margin: 0 auto;
     }
 
     div#switch {
         display: flex;
-        top: 10%;
+        top: 30%;
         right: 8%;
         transform: rotate(0.25turn);
         height: 24px;
-        border: 1px solid yellow;
+        margin: 0;
     }
 
     section#btns {
-        border: 1px solid red;
         display: flex;
-        align-self: flex-start;
-        align-items: start;
         flex-flow: row;
         position: relative;
-        right: 8%;
-        width: 390;
-        max-width: 390px;
-        height: 300px;
+        right: 5%;
+        max-width: 450px;
     }
 
     #btns > ul {
-        border: 1px solid white;
-        display: flex;
-        flex-flow: column;
-        align-items: end;
+        align-items: center;
         justify-content: start;
-        flex-flow: wrap;
-        list-style: none;
         width: 400px;
-        max-width: 890px;
-        height: 300px;
-        gap: 20px;
-        padding-top: 24px;
-        padding-bottom: 8px;
+        height: 340px;
     }
 
     #btns > ul > li {
-        display: flex;
-    }
-    
-    #btns > ul > li > a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;  
-        background: var(--surface-color);
-        border: 1px solid var(--stroke-collor);
-        border-radius: 16px;
-    
-        text-decoration: none;
-        font-weight: bold;
-    
-        padding: 16px 24px;
-        transition: background 0.3s;
+        min-width: 370px;
+        
     }
     
     #btns > ul > li > a:hover {
@@ -115,10 +88,45 @@
     }
 
     section#social {
-        display: block;
-        align-self: flex-end;
-        border: 1px solid blue;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 75%;
+        right: 62.5%;
         width: 300px;
+        padding-top: 8px;
+    }
+
+    #social a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        border-radius: 50%;
+        transition: background 0.2s;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 94%;
+        left: 8%;
+        text-decoration: none;
+        color: white;
+        text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.486);
+        font-size: 0.89em;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: rgba(232, 221, 253, 0.932);
+    }
+    
+    footer a:hover {
+        font-size: 1.1em;
+        color: var(--stroke-collor-hover);
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.596);
     }
     
 }
