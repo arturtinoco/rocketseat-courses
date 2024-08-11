@@ -1,4 +1,7 @@
+/* ===== Mobile First ===== */
+
 @charset "UTF-8";
+
 
 * {
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.596);
@@ -73,7 +76,6 @@ main {
 div#switch {
     position: relative;
     width: 64px;
-    
     margin: 0px auto;
 }
 
@@ -112,11 +114,16 @@ section#btns > ul {
     padding-bottom: 8px;
 }
 
-section#btns > ul > li > a {
+section#btns {
+    align-self: center;
+    max-width: 359px;
+}
+
+#btns > ul > li > a {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     background: var(--surface-color);
     border: 1px solid var(--stroke-collor);
     border-radius: 16px;
@@ -127,8 +134,7 @@ section#btns > ul > li > a {
     padding: 16px 24px;
     transition: background 0.3s;
 }
-
-section#btns > ul > li > a:hover {
+#btns > ul > li > a:hover {
     background: var(--surface-color-hover);
     border: 1.99px solid var(--stroke-collor-hover);
 }
