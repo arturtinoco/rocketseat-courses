@@ -64,19 +64,27 @@
         border: 1px solid red;
         display: flex;
         align-self: flex-start;
-        width: 98vw;
-        max-width: 99vw;
+        align-items: start;
+        flex-flow: row;
+        position: relative;
+        right: 8%;
+        width: 390;
+        max-width: 390px;
         height: 300px;
-        right: 3%;
     }
 
     #btns > ul {
+        border: 1px solid white;
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+        flex-flow: column;
+        align-items: end;
+        justify-content: start;
+        flex-flow: wrap;
         list-style: none;
-        max-width: 200px;
-        gap: 1px;
+        width: 400px;
+        max-width: 890px;
+        height: 300px;
+        gap: 20px;
         padding-top: 24px;
         padding-bottom: 8px;
     }
@@ -86,7 +94,10 @@
     }
     
     #btns > ul > li > a {
-        display: flex;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;  
         background: var(--surface-color);
         border: 1px solid var(--stroke-collor);
         border-radius: 16px;
