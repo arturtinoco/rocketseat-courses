@@ -30,7 +30,8 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-content: space-between;
-        min-height: 400px;
+        min-height: 360px;
+        overflow-y: hidden;
     }
 
     header {
@@ -90,9 +91,9 @@
     section#social {
         display: flex;
         flex-direction: row;
-        position: absolute;
-        top: 75%;
-        right: 62.5%;
+        align-self: flex-start;
+        position: relative;
+        bottom: 75px;
         width: 300px;
         padding-top: 8px;
     }
@@ -116,6 +117,7 @@
         color: white;
         text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.486);
         font-size: 0.89em;
+        padding: 0;
     }
     
     footer a {
