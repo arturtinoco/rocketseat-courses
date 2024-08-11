@@ -1,2 +1,67 @@
 @charset "UTF-8";
 
+/* Landscape Phone */
+
+:root {
+    --bg-url: url(../images/bg-night-full.jpg);
+    --switch-bg-url: url(../images/moon.svg);
+    --stroke-collor: rgba(211, 188, 255, 0.5);
+    --stroke-collor-hover: rgba(211, 188, 255, 0.932);
+    --highlight-color: rgba(211, 188, 255, 0.2);
+    --surface-color: rgba(211, 188, 255, 0.05);
+    --surface-color-hover: rgba(18, 9, 29, 0.02);
+    --text-color: white;
+    --font: Arial, Helvetica, sans-serif;
+}
+
+.light {
+    --bg-url: ;
+    --switch-bg-url: url(../images/sun.svg);
+    --stroke-collor: rgba(6, 5, 7, 0.5);
+    --highlight-color: ;
+    --surface-color: rgba(6, 5, 7, 0.05);
+    --surface-color-hover: rgba(18, 9, 29, 0.02);
+    --text-color: black;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        max-height: 280px;
+    }
+    
+    header h1 {
+        font-size: 1.8em;
+        margin-top: 10px;
+    }
+    
+    main {
+        border: 1px solid green;
+        flex-direction: row;
+        float: right;
+        max-width: 480px;
+    }
+
+    div#switch {
+        display: flex;
+        top: 10%;
+        right: 8%;
+        transform: rotate(0.25turn);
+        height: 24px;
+        border: 1px solid yellow;
+    }
+
+    section#social {
+        border: 1px solid blue;
+        width: 300px;
+    }
+    
+}

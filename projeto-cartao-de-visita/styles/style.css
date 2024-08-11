@@ -1,7 +1,7 @@
-/* ===== Mobile First ===== */
-
 @charset "UTF-8";
 
+/* ===== Mobile First ===== */
+/* ==== Portrait Phone ==== */
 
 * {
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.596);
@@ -19,6 +19,7 @@
     --surface-color: rgba(211, 188, 255, 0.05);
     --surface-color-hover: rgba(18, 9, 29, 0.02);
     --text-color: white;
+    --font: Arial, Helvetica, sans-serif;
 }
 
 .light {
@@ -38,7 +39,7 @@ body {
 }
 
 body * {
-    font-family: Arial, Helvetica, sans-serif; /* A DEFINIR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    font-family: var(--font); /* A DEFINIR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
     color: var(--text-color);
 }
 
