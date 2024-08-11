@@ -46,6 +46,7 @@
     main {
         border: 1px solid green;
         flex-direction: row;
+        align-content: flex-start;
         float: right;
         max-width: 480px;
     }
@@ -59,7 +60,52 @@
         border: 1px solid yellow;
     }
 
+    section#btns {
+        border: 1px solid red;
+        display: flex;
+        align-self: flex-start;
+        width: 98vw;
+        max-width: 99vw;
+        height: 300px;
+        right: 3%;
+    }
+
+    #btns > ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        list-style: none;
+        max-width: 200px;
+        gap: 1px;
+        padding-top: 24px;
+        padding-bottom: 8px;
+    }
+
+    #btns > ul > li {
+        display: flex;
+    }
+    
+    #btns > ul > li > a {
+        display: flex;  
+        background: var(--surface-color);
+        border: 1px solid var(--stroke-collor);
+        border-radius: 16px;
+    
+        text-decoration: none;
+        font-weight: bold;
+    
+        padding: 16px 24px;
+        transition: background 0.3s;
+    }
+    
+    #btns > ul > li > a:hover {
+        background: var(--surface-color-hover);
+        border: 1.99px solid var(--stroke-collor-hover);
+    }
+
     section#social {
+        display: block;
+        align-self: flex-end;
         border: 1px solid blue;
         width: 300px;
     }
