@@ -1,12 +1,11 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* ===== Mobile First ===== */
 /* ==== Portrait Phone ==== */
 
 * {
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.596);
-    padding: 0px;
-    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -19,35 +18,48 @@
     --surface-color: rgba(211, 188, 255, 0.05);
     --surface-color-hover: rgba(18, 9, 29, 0.02);
     --text-color: white;
-    --font: Arial, Helvetica, sans-serif;
+    --font-all: 'Lato', sans-serif;
 }
 
 .light {
-    --bg-url: ;
+    /*--bg-url: ;*/
     --switch-bg-url: url(../images/sun.svg);
     --stroke-collor: rgba(6, 5, 7, 0.5);
-    --highlight-color: ;
+    /*--highlight-color: ;*/
     --surface-color: rgba(6, 5, 7, 0.05);
     --surface-color-hover: rgba(18, 9, 29, 0.02);
     --text-color: black;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     background: var(--bg-url) no-repeat top center/cover;
+    width: 100%;
     height: 100vh;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+
+    border: 1px solid rgba(238, 130, 238, 0.397);
 }
 
 body * {
-    font-family: var(--font); /* A DEFINIR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    font-family: var(--font-all);
     color: var(--text-color);
 }
 
 header {
-    text-align: center;
-    padding: 20px;
-    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 2;
+    
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+    border: 1px solid rgba(0, 128, 0, 0.349);
 }
 
 header img {
@@ -59,27 +71,23 @@ header img {
 
 header h1 {
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.596);
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
 
 header p{
     font-size: 1em;
     line-height: 24px;
-    margin-top: 5px;
+    margin: 5px 0px;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 100%;
-    padding: 0 12px;
-    margin: 10px 0;
+    border: 1px solid blue;
+    
 
 }
 
 div#switch {
-    display: block;
     position: relative;
     width: 64px;
     margin: auto;
@@ -93,9 +101,9 @@ div#switch {
     border: 0;
     border-radius: 50%;
     top: 50%;
-    left: 0;
-    z-index: 1;
     transform: translateY(-50%);
+    left: 0;
+    /*z-index: 1;*/
 }
 
 #switch button:hover {
@@ -111,23 +119,23 @@ div#switch span {
     border-radius: 20px;
 }
 
-section#btns {
-    align-self: center;
-    max-width: 356.675px;
-}
-
-#btns > ul {
+section#btns > ul {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    justify-self: center;
+    flex: 4;
     list-style: none;
     gap: 12px;
-    padding-top: 24px;
-    padding-bottom: 8px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #btns > ul > li {
-    min-width: 300px;
-    text-wrap: balance;
+    width: 300px;
     text-align: center;
 }
 
@@ -147,13 +155,20 @@ section#btns {
     font-size: 1em;
     font-weight: bold;
 
-    padding: 16px 16px;
+    padding: 16px 0px;
     transition: background 0.3s;
 }
 
 #btns > ul > li > a:hover {
     background: var(--surface-color-hover);
     border: 1.99px solid var(--stroke-collor-hover);
+}
+
+#play {
+    text-align: left;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
 }
 
 section#social {
