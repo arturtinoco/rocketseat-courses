@@ -117,7 +117,7 @@
 
     footer {
         display: flex;
-        align-self: flex-start;
+        align-self: flex-end;
         position: absolute;
         font-size: 0.89em;
         margin: 0px 0px 25px 50px;

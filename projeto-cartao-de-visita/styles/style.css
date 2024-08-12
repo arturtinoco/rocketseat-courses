@@ -33,7 +33,7 @@
 }
 
 body {
-    background: var(--bg-url) round bottom center/cover;
+    background: var(--bg-url) no-repeat top center/cover;
     height: 100vh;
     margin: 0;
     padding: 0;
