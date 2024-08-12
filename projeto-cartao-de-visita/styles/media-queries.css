@@ -110,7 +110,7 @@
     }
 
     #social a {
-        padding: 17px;
+        padding: 10px;
         border-radius: 50%;
         transition: background 0.2s;
     }
@@ -122,6 +122,6 @@
         font-size: 0.89em;
         top: -42px;
         padding: 0;
-        margin: 0px 0px 5px 50px;
+        margin: 0px 0px 5px 70px;
     }
 }
