@@ -25,13 +25,18 @@
 }
 
 @media screen and (min-width: 700px) {
+    html {
+        height: 370px;
+        overflow-y: hidden;
+    }
+
     body {
         border: 1px solid rgba(248, 0, 236, 0.651);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-content: space-between;
-        max-height: 370px;
+        height: 370px;
         
     }
 
