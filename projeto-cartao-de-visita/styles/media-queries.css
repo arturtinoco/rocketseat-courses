@@ -31,7 +31,7 @@
     }*/
 
     body {
-        border: 1px solid rgba(248, 0, 236, 0.651);
+       /* border: 1px solid rgba(248, 0, 236, 0.651);*/
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -41,7 +41,7 @@
     }
 
     header {
-        border: 1px solid rgba(0, 126, 6, 0.363);
+        /*border: 1px solid rgba(0, 126, 6, 0.363);*/
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -56,7 +56,7 @@
     }
     
     main {
-        border: 1px solid rgba(0, 4, 248, 0.356);
+       /* border: 1px solid rgba(0, 4, 248, 0.356);*/
         flex-direction: row;
         align-content: space-evenly;
         align-self: flex-start;
@@ -65,7 +65,7 @@
     }
 
     div#switch {
-        border: 1px solid rgba(0, 211, 248, 0.651);
+       /* border: 1px solid rgba(0, 211, 248, 0.651);*/
         display: flex;
         align-self: center;
         right: 8%;
@@ -76,7 +76,7 @@
     }
 
     section#btns {
-        border: 1px dashed rgba(248, 0, 0, 0.76);
+        /*border: 1px dashed rgba(248, 0, 0, 0.76);*/
         display: flex;
         flex-flow: row;
         justify-content: end;
@@ -86,7 +86,7 @@
     }
 
     #btns > ul {
-        border: 1px dashed rgba(255, 255, 255, 0.322);
+        /*border: 1px dashed rgba(255, 255, 255, 0.322);*/
         align-items: center;
         justify-content: start;
     }
@@ -116,11 +116,12 @@
     }
 
     footer {
+        /*border: 1px solid lightgray;*/
         display: flex;
-        align-self: flex-end;
-        position: absolute;
+        align-self: flex-start;
         font-size: 0.89em;
-        margin: 0px 0px 25px 50px;
+        top: -42px;
         padding: 0;
+        margin: 0px 0px 5px 50px;
     }
 }
