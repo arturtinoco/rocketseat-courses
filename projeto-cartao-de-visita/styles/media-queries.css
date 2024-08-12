@@ -25,19 +25,18 @@
 }
 
 @media screen and (min-width: 700px) {
-    html {
-        overflow-y: hidden;
-    }
-
     body {
+        border: 1px solid rgba(248, 0, 236, 0.651);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-content: space-between;
-        max-height: 360px;
+        max-height: 370px;
+        
     }
 
     header {
+        border: 1px solid rgba(0, 126, 6, 0.651);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -52,14 +51,16 @@
     }
     
     main {
+        border: 1px solid rgba(0, 4, 248, 0.651);
         flex-direction: row;
         align-content: space-evenly;
         align-self: flex-start;
-        max-width: 439px;
+        max-width: 433px;
         margin: 0;
     }
 
     div#switch {
+        border: 1px solid rgba(0, 211, 248, 0.651);
         display: flex;
         align-self: center;
         right: 8%;
@@ -70,18 +71,19 @@
     }
 
     section#btns {
+        border: 1px dashed rgba(248, 0, 0, 0.76);
         display: flex;
         flex-flow: row;
+        justify-content: end;
         position: relative;
         right: 3%;
         margin-left: 10px;
     }
 
     #btns > ul {
+        border: 1px dashed rgba(255, 255, 255, 0.322);
         align-items: center;
         justify-content: start;
-        width: 340px;
-        height: 340px;
     }
 
     #btns > ul > li {
@@ -97,6 +99,7 @@
     section#social {
         position: relative;
         bottom: 62%;
+        right: 2%;
         width: 300px;
         padding-top: 8px;
     }
@@ -105,7 +108,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 16px;
+        padding: 17px;
         border-radius: 50%;
         transition: background 0.2s;
     }
