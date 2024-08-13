@@ -170,6 +170,7 @@ ul li a:hover {
 }
 
 #social-links a:hover {
+    
     background: var(--highlight-color);
     
     
