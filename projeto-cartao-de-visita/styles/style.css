@@ -82,7 +82,7 @@ header p{
 }
 
 main {
-    border: 1px solid blue;
+    border: 1px solid rgba(0, 0, 255, 0.473);
     
 
 }
@@ -132,24 +132,25 @@ section#btns > ul {
     padding-right: 0.5rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 16px;
 }
 
 #btns > ul > li {
-    width: 300px;
-    text-align: center;
-}
-
-#btns > ul > li#long {
-    line-height: 1.2em;
-}
-
-#btns > ul > li > a {
     display: flex;
     justify-content: center;
-    
+
     background: var(--surface-color);
     border: 1px solid var(--stroke-collor);
     border-radius: 16px;
+
+    min-width: 320px;
+    max-height: 53px;
+
+    text-align: center;
+}
+
+#btns > ul > li > a {
+    width: 100%;
 
     text-decoration: none;
     font-size: 1em;
@@ -159,33 +160,56 @@ section#btns > ul {
     transition: background 0.3s;
 }
 
-#btns > ul > li > a:hover {
+#btns > ul > li:hover {
     background: var(--surface-color-hover);
     border: 1.99px solid var(--stroke-collor-hover);
 }
 
-#play {
-    text-align: left;
-    font-size: 1.5em;
-    padding: 0;
-    margin: 0;
+.playContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.playIcon {
+    font-size: 1.7em;
+    position: relative;
+}
+
+#playContainer1 {
+    right: 10px;
+}
+
+#play1 {
+    right: 15px;
+}
+
+#playContainer2 {
+    right: 15px;
+}
+
+#play2 {
+    right: 38.4px;
 }
 
 section#social {
-    /*border: 1px solid rgba(255, 0, 0, 0.178);*/
-    position: absolute;
+    border: 1px solid rgba(255, 255, 0, 0.027);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex: 3;
+    gap: 8px;
     font-size: 2em;
-    text-align: center;
     width: 350px;
-    left: 50%;
-    transform: translateX(-50%);
+    height: 48px;
 }
 
 #social a {
+    font-size: 1em;
     border-radius: 50%;
     transition: background 0.2s;
-    
-    padding: 16px;
 }
 
 #social a:hover {
@@ -193,8 +217,7 @@ section#social {
 }
 
 footer {
-    /*border: 1px solid rgba(255, 255, 0, 0.13);*/
-    position: relative;
+    border: 1px solid rgb(255, 0, 0);
     color: white;
     text-decoration: none;
     text-align: center;
