@@ -54,12 +54,12 @@ header {
     flex-direction: column;
     align-items: center;
     flex: 3;
-    max-width: 361px;
-    max-height: 265.717px;
+    max-width: 265.717px;
+    max-height: 253px;
     
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    margin: 10px auto;
+    margin: 10px auto 0px;
 }
 
 header img {
@@ -70,13 +70,14 @@ header img {
 }
 
 header h1 {
+    font-size: 1.5em;
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.596);
     margin-top: 5px;
     margin-bottom: 0px;
 }
 
 header p{
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 24px;
     margin: 5px 0px;
 }
@@ -90,7 +91,8 @@ main {
     align-self: center;
     flex: 4;
     max-width: 356px;
-    max-height: 371px;
+    max-height: 369px;
+    
 }
 
 div#switch {
@@ -98,7 +100,7 @@ div#switch {
     border: 1px solid yellow;
     position: relative;
     width: 64px;
-    margin: 0 auto;
+    margin: 10px auto 0px;
 }
 
 #switch button {
@@ -246,6 +248,7 @@ footer {
     text-decoration: none;
     text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.486);
     max-width: 175px;
+    max-height: 53px;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     margin-left: auto;
