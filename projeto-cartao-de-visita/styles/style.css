@@ -201,21 +201,22 @@ section#social {
     align-self: center;
     align-items: center;
     flex: 3;
-    gap: 40px;
+    gap: 16px;
     font-size: 2em;
     width: 350px;
     min-height: 48px;
-    padding: 0px 50px;*/
+    max-height: 72px;
 }
 
 #social a {
+    display: flex;
     border-radius: 50%;
-    max-height: 32px;
-    
     transition: background 0.2s;
 }
 
 #social a:hover {
+    width: 48px;
+    height: 48px;
     background: var(--highlight-color);
 }
 /*
