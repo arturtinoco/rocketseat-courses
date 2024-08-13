@@ -195,25 +195,45 @@ section#btns > ul {
 }
 
 section#social {
-    border: 1px solid rgba(255, 255, 0, 0.027);
+    border: 1px solid rgba(255, 255, 0, 0.808);
     display: flex;
     justify-content: center;
     align-self: center;
+    align-items: center;
     flex: 3;
-    gap: 8px;
+    gap: 40px;
     font-size: 2em;
     width: 350px;
+    min-height: 48px;
+    padding: 0px 50px;*/
 }
 
 #social a {
-    font-size: 1em;
     border-radius: 50%;
+    max-height: 32px;
+    
     transition: background 0.2s;
 }
 
 #social a:hover {
     background: var(--highlight-color);
 }
+/*
+section#social {
+    position: absolute;
+    font-size: 2em;
+    text-align: center;
+    width: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#social a {
+    border-radius: 50%;
+    transition: background 0.2s;
+    
+    padding: 16px;
+}*/
 
 footer {
     border: 1px solid rgb(255, 0, 0);
