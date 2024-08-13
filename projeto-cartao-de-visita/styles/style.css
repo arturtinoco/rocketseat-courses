@@ -10,7 +10,7 @@
 }
 
 :root {
-    --bg-url: url(../images/bg-night-mobile.jpg);
+    --bg-url: url(../images/bg-dark-mobile.jpg);
     --switch-bg-url: url(../images/moon.svg);
     --stroke-collor: rgba(211, 188, 255, 0.5);
     --stroke-collor-hover: rgba(211, 188, 255, 0.932);
