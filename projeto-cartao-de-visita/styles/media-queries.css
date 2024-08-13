@@ -3,7 +3,7 @@
 /* Landscape Phone */
 
 :root {
-    --bg-url: url(../images/bg-night-full.jpg);
+    --bg-url: url(../images/bg-dark-full.jpg);
     --switch-bg-url: url(../images/moon.svg);
     --stroke-collor: rgba(211, 188, 255, 0.5);
     --stroke-collor-hover: rgba(211, 188, 255, 0.932);
@@ -14,11 +14,11 @@
     --font: Arial, Helvetica, sans-serif;
 }
 
-.light {
-    --bg-url: ;
+.light-mode {
+    --bg-url: url(../images/bg-light-full.jpg);
     --switch-bg-url: url(../images/sun.svg);
     --stroke-collor: rgba(6, 5, 7, 0.5);
-    --highlight-color: ;
+    /*--highlight-color: ;*/
     --surface-color: rgba(6, 5, 7, 0.05);
     --surface-color-hover: rgba(18, 9, 29, 0.02);
     --text-color: black;
