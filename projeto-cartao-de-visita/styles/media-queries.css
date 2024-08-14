@@ -44,7 +44,7 @@
     }
     
     main {
-        /*border: 1px solid rgba(0, 4, 248, 0.829);*/
+        border: 1px solid rgba(0, 4, 248, 0.829);
         flex-wrap: wrap;
         position: absolute;
         max-width: 462px;
@@ -56,7 +56,6 @@
     div#switch {
         /*border: 1px solid rgba(0, 211, 248, 0.651);*/
         justify-self: center;
-        position: absolute;
         height: 24px;
         margin: 0;
     }
