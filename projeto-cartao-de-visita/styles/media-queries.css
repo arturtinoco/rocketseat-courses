@@ -118,13 +118,11 @@
     }
 
     body {
-        border: 1px solid violet;
         background: var(--bg-url) no-repeat left top/cover;
         align-content: center;
     }
 
     header {
-        border: 1px solid rgba(0, 128, 0, 0.205);
         justify-content: center;
         min-width: 45vw;
         width: 45vw;
@@ -143,17 +141,14 @@
     }
     
     header h1 {
-        /*font-size: 1.8em;*/
         text-align: center;
         padding-top: 55px;
     }
     
     main {
-        border: 1px solid rgb(0, 0, 255);
         flex-wrap: wrap;
         position: absolute;
         width: 610px;
-        /*max-width: 580px;*/
         height: 550px;
         max-height: 550px;
         margin: 0;
@@ -171,7 +166,6 @@
     }
 
     section#btns > ul {
-        border: 1px solid rgba(255, 0, 0, 0.856);
         height: 550px;
         max-height: 100%;
         margin-bottom: 0;
@@ -203,7 +197,6 @@
     }
 
     section#social {
-        border: 1px solid rgba(121, 121, 0, 0.295);
         justify-content: center;
         flex-wrap: wrap;
         position: absolute;
@@ -227,14 +220,14 @@
     }
 
     footer {
-        border: 1px solid purple;
         display: flex;
         align-self: center;
         justify-content: center;
+        justify-self: flex-end;
         min-width: 45vw;
         max-width: 72vw;
         font-size: 1em;
         margin: 0;
-        transform: translateY(280%);
+        transform: translateY(420%);
     }
 }
