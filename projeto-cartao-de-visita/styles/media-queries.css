@@ -31,7 +31,6 @@
         min-width: 40vw;
         width: 40vw;
         max-width: 70vw;
-        /*max-width: 250px;*/
         max-height: 270px;
     }
 
@@ -81,9 +80,8 @@
         border: 1px solid rgb(121, 121, 0);
         align-self: flex-start;
         gap: 16px;
-        max-width: 250px;
-        width: 260px;
-        transform: translateX(3%);
+        min-width: 42vw;
+        max-width: 72vw;
     }
 
     #social a {
@@ -94,10 +92,12 @@
 
     footer {
         border: 1px solid purple;
+        display: flex;
         align-self: flex-start;
-        max-width: 250px;
+        justify-content: center;
+        min-width: 42vw;
+        max-width: 72vw;
         font-size: 0.89em;
         margin: 0;
-        transform: translateX(35.5%);
     }
 }
