@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@keyframes slideR {
+@keyframes slideL {
     from {
         left: 0;
     }
@@ -9,7 +9,7 @@
     }
 }
 
-@keyframes slideL {
+@keyframes slideR {
     from {
         left: 50%;
     }
@@ -57,6 +57,7 @@ body {
     width: 100%;
     height: 100vh;
     margin: auto;
+    overflow-x: hidden;
 }
 
 
@@ -107,7 +108,7 @@ main {
     justify-content: center;
     align-self: center;
     flex: 4;
-    max-width: 356px;
+    width: 95vw;
     max-height: 369px;
     
 }
@@ -160,7 +161,7 @@ section#btns > ul {
     flex: 4;
     list-style: none;
     gap: 12px;
-    max-width: 354px;
+    max-width: 100%;
     max-height: 345px;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -172,31 +173,26 @@ section#btns > ul {
 #btns > ul > li {
     display: flex;
     justify-content: center;
-
     background: var(--surface-color);
     border: 1px solid var(--stroke-collor);
     border-radius: 16px;
-
-    min-width: 320px;
-    max-height: 53px;
-
+    min-width: 90%;
+    max-width: 91%;
     text-align: center;
+    transition: background 0.3s;
 }
 
 #btns > ul > li > a {
     width: 100%;
-
     text-decoration: none;
     font-size: 1em;
     font-weight: bold;
-
     padding: 16px 0px;
-    transition: background 0.3s;
 }
 
 #btns > ul > li:hover {
     background: var(--surface-color-hover);
-    border: 1.99px solid var(--stroke-collor-hover);
+    border: 1px solid var(--text-color);
 }
 
 .playContainer {
