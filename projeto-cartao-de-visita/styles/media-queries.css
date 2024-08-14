@@ -3,7 +3,7 @@
 /* Landscape Phone */
 
 
-@media screen and (min-width: 667px) {
+@media screen and (min-width: 667px) and (max-width: 992px) {
     :root {
         --bg-url: url(../images/bg-dark-full.jpg);
         --surface-color-hover: rgba(18, 9, 29, 0.267);
@@ -42,9 +42,11 @@
     }
     
     main {
+        border: 1px solid blue;
         flex-wrap: wrap;
         position: absolute;
-        max-width: 462px;
+        width: 400px;
+        max-width: 580px;
         max-height: 350px;
         margin: 0;
         transform: translateX(20%);
@@ -54,17 +56,20 @@
         position: absolute;
         height: 24px;
         margin: 0;
+        margin-left: 4px;
+        float: left;
         top: 50%;
         transform: translateY(-50%);
     }
 
     #btns > ul {
+        border: 1px solid red;
         margin-bottom: 0;
-        transform: translateX(3.5%);
+        transform: translateX(20%);
     }
 
     #btns > ul > li {
-        min-width: 350px;
+        min-width: 50vw;
         
     }
 

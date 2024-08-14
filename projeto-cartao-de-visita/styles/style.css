@@ -159,6 +159,10 @@ div#switch span {
     border-radius: 20px;
 }
 
+section#btns {
+    display: flex;
+}
+
 section#btns > ul {
     display: flex;
     align-items: center;
@@ -184,7 +188,6 @@ section#btns > ul {
     border: 1px solid var(--stroke-collor);
     border-radius: 16px;
     min-width: 90%;
-    max-width: 91%;
     text-align: center;
     transition: background 0.3s;
 }
