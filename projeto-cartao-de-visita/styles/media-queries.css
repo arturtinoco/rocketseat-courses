@@ -17,14 +17,12 @@
     }
 
     body {
-        /*border: 1px solid violet;*/
         background: var(--bg-url) no-repeat left top/cover;
         flex-direction: column;
         align-content: center;
     }
 
     header {
-        /*border: 1px solid tomato;*/
         margin: 0;
         padding-top: 12px;
         padding-left: 16px;
@@ -44,7 +42,6 @@
     }
     
     main {
-        /*border: 1px solid rgba(0, 4, 248, 0.829);*/
         flex-wrap: wrap;
         position: absolute;
         max-width: 462px;
@@ -54,7 +51,6 @@
     }
 
     div#switch {
-        /*border: 1px solid rgba(0, 211, 248, 0.651);*/
         position: absolute;
         height: 24px;
         margin: 0;
@@ -63,7 +59,6 @@
     }
 
     #btns > ul {
-       /* border: 1px dashed rgb(212, 0, 255);*/
         margin-bottom: 0;
         transform: translateX(3.5%);
     }
@@ -74,7 +69,6 @@
     }
 
     section#social {
-        /*border: 1px solid rgba(0, 75, 56, 0.315);*/
         align-self: flex-start;
         gap: 16px;
         max-width: 250px;
@@ -89,7 +83,6 @@
     }
 
     footer {
-        /*border: 1px solid rgb(71, 83, 0);*/
         align-self: flex-start;
         max-width: 250px;
         font-size: 0.89em;
