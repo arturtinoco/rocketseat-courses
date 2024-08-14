@@ -231,7 +231,7 @@ section#social {
     align-self: center;
     align-items: center;
     flex: 2;
-    gap: 32px;
+    gap: 24px;
     max-width: 288px;
     max-height: 57px;
     font-size: 2em;
