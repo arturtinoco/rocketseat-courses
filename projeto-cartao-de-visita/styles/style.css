@@ -63,7 +63,7 @@ body {
     flex-direction: column;
     background: var(--bg-url) no-repeat center center/cover;
     width: 100%;
-    height: 100vh;
+    height: 100vh; 
     margin: auto;
     overflow-x: hidden;
 }
@@ -126,7 +126,7 @@ div#switch {
     display: flex;
     position: relative;
     width: 64px;
-    margin: 10px auto 0px;
+    margin: 10px auto 0px auto;
 }
 
 #switch button {
