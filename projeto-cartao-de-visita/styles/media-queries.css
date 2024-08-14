@@ -44,7 +44,7 @@
     }
     
     main {
-        border: 1px solid rgba(0, 4, 248, 0.829);
+        /*border: 1px solid rgba(0, 4, 248, 0.829);*/
         flex-wrap: wrap;
         position: absolute;
         max-width: 462px;
