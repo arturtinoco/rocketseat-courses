@@ -1,7 +1,7 @@
-<h1 align="center"> Projeto ~ Cartão de Visita ~ </h1>
+<h1 align="center"> Projeto ~ U-Link ~ </h1>
 
 <p align="center">
-Projeto final do curso *Discover* promovido pela plataforma <a href="https://app.rocketseat.com.br/">Rocketseat</a>
+Projeto final do curso Discover promovido pela plataforma <a href="https://app.rocketseat.com.br/">Rocketseat</a>.
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@ Projeto final do curso *Discover* promovido pela plataforma <a href="https://app
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
+  <img alt="projeto U-Link" src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
