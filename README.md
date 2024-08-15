@@ -18,7 +18,7 @@ Projeto final do curso Discover promovido pela plataforma <a href="https://app.r
 <br>
 
 <p align="center">
-  <img alt="projeto U-Link" src=".github/preview.jpg" width="100%">
+  <img alt="projeto U-Link" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
