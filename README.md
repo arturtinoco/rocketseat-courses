@@ -5,8 +5,8 @@ Projeto final do curso Discover promovido pela plataforma <a href="https://app.r
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Conceito do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Tecnologias Utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Conceito do Projeto">Conceito do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -24,13 +24,14 @@ Projeto final do curso Discover promovido pela plataforma <a href="https://app.r
 
 O U-Link foi desenvolvido com as seguintes tecnologias:
 
-<img alt="Logo HTML 5" src=".github/html5.png">   HTML5<br>
-<img alt="Logo CSS 3" src=".github/css3.png">    CSS3<br>
-<img alt="Logo JavaScript" src=".gihub/javascript.png">   JavaScript<br>
-<img alt="Logo Git" src=".github/git.pn">    Git e Github    <img alt="Logo Git" src=".github/github.png"><br>
-- Figma
+<img alt="Logo HTML 5" src=".github/html5.png"> HTML5<br>
+<img alt="Logo CSS 3" src=".github/css3.png"> CSS3<br>
+<img alt="Logo JavaScript" src=".github/javascript.png"> JavaScript<br>
+<img alt="Logo Git" src=".github/git.png"> Git e Github <img alt="Logo Git" src=".github/github.png"><br>
+<img alt="Logo Gimp" src=".github/gimp.png"> Gimp<br>
+<img alt="Logo Visual Studio Code" src=".github/vscode.png"> Visual Studio Code
 
-## 💻 Projeto
+## 💻 Conceito do Projeto
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
