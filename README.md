@@ -5,8 +5,8 @@ Projeto final do curso Discover promovido pela plataforma <a href="https://app.r
 </p>
 
 <p align="center">
-  <a href="#-Tecnologias&nbsp;Utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Conceito&nbsp;do&nbsp;Projeto">Conceito do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Tecnologias">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Conceito">Conceito do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -20,7 +20,7 @@ Projeto final do curso Discover promovido pela plataforma <a href="https://app.r
   <img alt="Projeto U-Link" src=".github/preview.png" width="100%">
 </p>
 
-## 🤖 Tecnologias&nbsp;Utilizadas
+## 🤖 Tecnologias
 
 O U-Link foi desenvolvido com as seguintes tecnologias:
 
@@ -31,7 +31,7 @@ O U-Link foi desenvolvido com as seguintes tecnologias:
 <img alt="Logo Gimp" src=".github/gimp.png"> Gimp<br>
 <img alt="Logo Visual Studio Code" src=".github/vscode.png"> Visual Studio Code
 
-## 💻 Conceito do Projeto
+## 💻 Conceito
 
 O U-Link é um agregador de links feito para direcionar o usuário à links personalizados como um cartão de visita virtual.
 
