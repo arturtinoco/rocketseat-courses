@@ -5,9 +5,8 @@ Projeto final do curso Discover promovido pela plataforma <a href="https://app.r
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Conceito do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -18,14 +17,15 @@ Projeto final do curso Discover promovido pela plataforma <a href="https://app.r
 <br>
 
 <p align="center">
-  <img alt="projeto U-Link" src=".github/preview.png" width="100%">
+  <img alt="Projeto U-Link" src=".github/preview.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🤖 Tecnologias Utilizadas
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+O U-Link foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
+<img alt="Logo HTML 5" src=".github/html5.png">   HTML5<br>
+<img alt="Logo CSS 3" src=".github/css3.png">    CSS3
 - JavaScript
 - Git e Github
 - Figma
