@@ -5,7 +5,7 @@ Projeto final do curso Discover promovido pela plataforma <a href="https://app.r
 </p>
 
 <p align="center">
-  <a href="#-Tecnologias Utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Tecnologias&nbsp;Utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Conceito do Projeto">Conceito do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -20,7 +20,7 @@ Projeto final do curso Discover promovido pela plataforma <a href="https://app.r
   <img alt="Projeto U-Link" src=".github/preview.png" width="100%">
 </p>
 
-## 🤖 Tecnologias Utilizadas
+## 🤖 Tecnologias&nbsp;Utilizadas
 
 O U-Link foi desenvolvido com as seguintes tecnologias:
 
