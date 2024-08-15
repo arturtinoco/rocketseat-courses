@@ -27,7 +27,7 @@ O U-Link foi desenvolvido com as seguintes tecnologias:
 <img alt="Logo HTML 5" src=".github/html5.png">   HTML5<br>
 <img alt="Logo CSS 3" src=".github/css3.png">    CSS3<br>
 <img alt="Logo JavaScript" src=".gihub/javascript.png">   JavaScript<br>
-<img alt="Logo Git" src=".github/git.png">    Git e Github    <img alt="Logo Git" src=".github/github.png"><br>
+<img alt="Logo Git" src=".github/git.pn">    Git e Github    <img alt="Logo Git" src=".github/github.png"><br>
 - Figma
 
 ## 💻 Projeto
