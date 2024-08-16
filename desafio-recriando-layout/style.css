@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.page {
+    width: 1280px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+body {
+    background-color: #2F2E41;
+    color: white;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 71px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 306px;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1092px;
+    margin: auto;
+}
+
+section {
+    text-align: center;
+}
