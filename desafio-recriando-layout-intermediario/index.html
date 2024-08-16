@@ -27,48 +27,53 @@
                     <div class="info-wraper">
                         <div class="label-col">
                             <label for="iname">Nome</label>
-                            <input type="text" name="name" id="iname">
+                            <input type="text" name="name" id="iname" required>
                         </div>
                         
                         <div class="label-col">
                             <label for="ilast">Sobrenome</label>
-                            <input type="text" name="last-name" id="ilast">
+                            <input type="text" name="last-name" id="ilast" required>
                         </div>
                     </div>
 
-                    <label for="iemail">Email</label>
-                    <input type="text" name="email" id="iemail">
+                    <label for="iemail">Email <span>(digite um email válido)</span></label>
+                    <input type="text" name="email" id="iemail"  required>
 
-                    <label for="ipassword">Senha</label>
-                    <input type="text" name="password" id="ipassword">
+                    <label for="ipassword">Senha <span>(mínimo de 6 carácteres)</span></label>
+                    <input type="password" name="password" id="ipassword"  required minlength="8">
                 </fieldset>
 
                 <fieldset>
-                    <legend>INFORMAÇÕES DO MENTOR</legend>
+                    <legend id="mentor-info">INFORMAÇÕES DO MENTOR</legend>
 
-                        <label for="imentor">Nome do seu mentor</label>
-                        <select name="mentor" id="imentor"></select>
+                        <label for="imentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+                        <select name="mentor" id="imentor">
+                            <option value="default">-- Selecione --</option>
+                            <option value="maikao">Maikão</option>
+                            <option value="tamires">Tamires</option>
+                            <option value="cleb-web">Clebson Webson</option>
+                        </select>
                 </fieldset>
 
                 <fieldset>
-                    <legend>SEUS HORÁRIOS DISPONÍVEIS</legend>
+                    <legend id="schedule">SEUS HORÁRIOS DISPONÍVEIS</legend>
 
                     <h2>PRIMEIRA MENTORIA</h2>
                     <div class="info-wraper">
 
                         <div class="label-col">
-                            <label for="f-date">Data</label>
-                            <input type="date" name="first-date" id="f-date">
+                            <label for="date-1">Data <span>(DD/MM/AAAA)</span></label>
+                            <input type="date" name="first-date" id="date-1"  required>
                         </div>
 
                         <div class="label-col">
-                            <label for="f-from">Das</label>
-                            <input type="time" name="first-from" id="f-from">
+                            <label for="from-1">Das</label>
+                            <input type="time" name="first-from" id="from-1" required>
                         </div>
 
                         <div class="label-col">
-                            <label for="f-to">Até</label>
-                            <input type="time" name="first-to" id="f-to">
+                            <label for="to-1">Até</label>
+                            <input type="time" name="first-to" id="to-1" required>
                         </div>
                     </div>
 
@@ -76,18 +81,18 @@
                     <div class="info-wraper">
 
                         <div class="label-col">
-                            <label for="s-date">Data</label>
-                            <input type="date" name="second-date" id="s-date">
+                            <label for="date-2">Data <span>(DD/MM/AAAA)</span></label>
+                            <input type="date" name="second-date" id="date-2">
                         </div>
 
                         <div class="label-col">
-                            <label for="s-from">Das</label>
-                            <input type="time" name="second-from" id="s-from">
+                            <label for="from-2">Das</label>
+                            <input type="time" name="second-from" id="from-2">
                         </div>  
 
                         <div class="label-col">
-                            <label for="s-to">Até</label>
-                            <input type="time" name="second-to" id="s-to">
+                            <label for="to-2">Até</label>
+                            <input type="time" name="second-to" id="to-2">
                         </div>
                     </div>
                 </fieldset>
