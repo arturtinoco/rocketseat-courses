@@ -81,11 +81,15 @@ footer {
 }
 
 footer p {
-    margin-bottom: 23px;
+    font-size: 14px;
+    line-height: 28px;
+    padding-top: 27px;
+    margin: 0;
 }
 
-.padlock {
+#padlock {
     position: fixed;
     bottom: 0;
     left: 0;
+    padding: 20px;
 }
