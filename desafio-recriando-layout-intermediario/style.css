@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 750px;
+    margin: auto;
+}
+
+body {
+    background-color: #EFEFEF;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    margin: auto;
+}
+
+body::before {
+    content: '';
+    background-color: #535971;
+    position: absolute;
+    width: 100%;
+    height: 436px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 750px;
+    color: white;
+    font-size: 20px;
+    padding-top: 138px;
+    margin-bottom: 58px;
+}
+
+header h1 {
+    font-family: "Staatliches", sans-serif;
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+
+main {
+    background-color: white;
+    width: 750PX;
+    border-radius: 20px 20px 0 0;
+    padding: 64px;
+    margin: 0 auto;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+}
+
+legend {
+    color: #535971;
+    font-family: "Staatliches", sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    width: 100%;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E6E6F0;
+}
+
+legend#personal-info {
+    padding-bottom: 16px;
+}
+
+.info-wraper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 22px;
+}
+
+
+.label-col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h2 {
+    color: #535971;
+    font-family: "Staatliches", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 34px;
+}
+
