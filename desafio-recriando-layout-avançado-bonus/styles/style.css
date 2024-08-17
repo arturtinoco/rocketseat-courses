@@ -10,7 +10,6 @@ body {
     background-color: #BFD7E4;
     position: relative;
     font-family: "Poppins", sans-serif;
-    margin: auto;
 }
 
 body::before {
@@ -47,7 +46,7 @@ header h1 {
 header img {
     width: 225px;
     height: 100px;
-    margin: 46px auto 32px;
+    margin: 23px auto 32px;
 }
 
 main {
@@ -137,4 +136,29 @@ legend#schedule {
     height: 1px;
     margin-top: 8px;
     margin-bottom: 32px;
+}
+
+#mentor-info {
+    display: flex;
+    flex-direction: column;
+}
+
+select#mentor-name {
+    background-color: #FAFAFC;
+    border: 2px solid #E6E6F0;
+    width: 300px;
+    height: 54px;
+    border-radius: 8px;
+}
+
+input#mentor-feedback {
+    width: 100%;
+    height: 167px;
+    text-align: justify;
+}
+
+#checkbox {
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
 }
