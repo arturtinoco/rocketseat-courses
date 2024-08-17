@@ -1,12 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Avalie a Sua Mentoria</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <div class="page">
+        <header>
+            <h1>AVALIE A SUA MENTORIA</h1>
+            <p>
+                Chegou a hora de avaliar o seu mentor. Bora lá?
+            </p>
+            <img src="images/img1.png" alt="Balão de fala vermelho com avaliação 3 de 5 estrelas">
+        </header>
+
+        <div id="top-container">
+            <legend id="user-i">INFORMAÇÕES PESSOAIS</legend>
+        </div>
+        <main>
+            <form action="">
+                <fieldset>
+                    <div class="info-wraper" id="personal-info">
+
+                        <div class="label-col">
+                            <label for="first-name">Nome</label>
+                            <input type="text" name="fname" id="first-name" required minlength="1">
+                        </div>
+                            
+                        <div class="label-col">
+                            <label for="last-name">Sobrenome</label>
+                            <input type="text" name="lname" id="last-name" required minlength="1">
+                        </div>
+                    </div>
+
+                    <label for="user-email">Email <span>(digite um email válido)</span></label>
+                    <input type="email" name="email" id="user-email" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend id="mentor-i">INFORMAÇÕES DO MENTOR</legend>
+
+                    <div class="mentor-info">
+                        <label for="mentor-name">Selecione quem foi o seu mentor</label>
+                        <select name="mentor" id="mentor-name" required>
+                            <optgroup>
+                                <option value="">
+                    
+                                </option>
+                                <option value="">
+                    
+                                </option>
+                            </optgroup>
+                            <optgroup>
+                                <option value="">
+                    
+                                </option>
+                                <option value="">
+                    
+                                </option>
+                            </optgroup>
+                            <optgroup>
+                                <option value="">
+                    
+                                </option>
+                            </optgroup>
+                        </select>
+                        <label for="mentor-feedback">Feedback sobre o mentor</label>
+                        <input type="text" name="feedback" id="mentor-feedback">
+
+                        <input type="checkbox" name="resolved" id="no-question">
+                        <label for="no-question">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend id="schedule">AGENDANDO PRÓXIMA MENTORIA</legend>
+
+                    <div class="next-mentoring">
+                        <label for="next-date">Data <span>(DD/MM/AAAA)</span></label>
+                        <input type="date" name="date" id="next-date">
+
+                        <label for="from-t">Das</label>
+                        <input type="time" name="from-time" id="from-t">
+
+                        <label for="to-t">Até</label>
+                        <input type="time" name="to-time" id="to-t">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <button>
+                SALVAR
+            </button>
+        </footer>
+    </div>
 </body>
 </html>
