@@ -37,6 +37,7 @@ main {
 
 .description {
     text-align: justify;
+    text-indent: 2rem;
 }
 
 h1 {
@@ -50,6 +51,7 @@ img {
 
 h2 {
     font-size: var(--font-size-h1);
+    font-weight: bold;
     margin-bottom: 2.25rem;
 }
 
@@ -59,11 +61,14 @@ ul, ol {
 
 button {
     background-color: var(--button-background);
-    color: var(--button-text-color);
     width: 5.89rem;
     height: 2rem;
+    color: var(--button-text-color);
+    font-family: var(--font-family);
     font-size: var(--font-size-button);
+    font-weight: 500;
     line-height: var(--line-height-button);
     border-radius: 5.67px;
     border: none;
+    margin-top: 1.5rem;
 }

@@ -1,11 +1,61 @@
 @media screen and (min-width: 1024px) {
-     main {
-        flex-direction: row;
-        gap: 11.812rem;
-        margin: 0;
-     }
+   :root {
+      --font-size-h1: 2.5rem;
+      --font-size-text: 1.25rem;
+      --font-size-button: 0.875rem;
+      --line-height-button: 1.5rem;
+      --bg-image: url(../images/bg-paper-full.png);
+   }
+   
+   body {
+      background: var(--bg-image) no-repeat center center/cover;
+      margin-block: 5.312rem;
+      margin-inline: auto;
+   }
+   main {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 5.1rem;
+      max-width: 71.812rem;
+      padding-inline: 4rem;
+      margin-inline: auto;
+   }
 
-     .description {
-        min-width: 27.187rem;
-     }
+   main > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 1;
+   }
+
+   .description {
+      min-width: 27.187rem;
+      max-width: 27.187rem;
+      width: 100%;
+   }
+
+   img {
+      margin-block: 4.125rem ;
+   }
+
+   .recipe {
+      align-items: flex-start;
+      min-width: 23rem;
+      max-width: 32.812rem;
+      width: 100%;
+   }
+
+   h2 {
+      margin-bottom: 3rem;
+   }
+
+   ul {
+      margin-bottom: 1em;
+   }
+   
+   button {
+      width: 8.312rem;
+      height: 2.812rem;
+      margin-top: 2rem;
+   }
 }
