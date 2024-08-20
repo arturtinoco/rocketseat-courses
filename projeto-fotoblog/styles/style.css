@@ -1,7 +1,59 @@
 @charset "UTF-8";
 
+:root {
+    --bg-color-body: white;
+    --bg-color-search: #EEEEEE;
+    --bg-color-main: #F5F5F5;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-color: var(--bg-color-body);
+    padding-inline: 7em;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-block: 1rem;
+}
+header img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+header label {
+    display: none;
+}
+
+.input-wraper input {
+    width: 45rem;
+    background-color: var(--bg-color-search);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-right: 4.5rem;
+}
+
+nav {
+    min-width: 17rem;
+    margin-right: 4.5rem;
+}
+
+nav, ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 4.5rem;
+}
+
+main {
+    background-color: var(--bg-color-main);
 }
