@@ -8,6 +8,7 @@
 
 :root {
     --bg-color: #121214;
+    --bg-card-color: #202024;
     --h1-color: #02799D;
     --text-color: #C4C4CC;
     --stronger-text-color: #E1E1E6;
@@ -15,11 +16,19 @@
 }
 
 body {
+    display: grid;
+    justify-content: center;
     background-color: var(--bg-color);
     color: var(--text-color);
 }
 
-header h1 {
+header {
+    display: grid;
+    gap: 0.5rem;
+    padding: 4.5rem 4rem 0;
+}
+
+h1 {
     color: var(--h1-color);
     font-size: 3.6rem;
     font-weight: 900;
@@ -29,6 +38,37 @@ header p {
     color: var(--stronger-text-color);
     font-size: 2em;
     font-weight: 600;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 2.75rem 3.75rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    padding: 4rem 4rem;
+}
+
+.card {
+    width: 23em;
+    height: 30em;
+    border: 2px solid #323238;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    padding: 0.5em 0.5em 0;
+}
+
+.card p {
+    text-align: justify;
+    padding: 1em;
 }
 
 h2 {
