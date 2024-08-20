@@ -4,6 +4,10 @@
     --bg-color-body: white;
     --bg-color-search: #EEEEEE;
     --bg-color-main: #F5F5F5;
+    --color-search: #3D3D3D;
+    --color-text: #202024;
+
+    font-family: "Mulish", sans-serif;
 }
 
 * {
@@ -14,46 +18,72 @@
 
 body {
     background-color: var(--bg-color-body);
-    padding-inline: 7em;
+    color: var(--color-text);
 }
 
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    padding-block: 1rem;
+.app {
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+    height: 100vh;
 }
-header img {
-    width: 40px;
-    border-radius: 50%;
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: min(100rem, 100%);
+    padding: 1rem 7rem;
+    margin: 0 auto;
+}
+
+header,
+nav,
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 5em;
+}
+
+nav ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+
+form {
+    flex: 1;
 }
 
 header label {
-    display: none;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
 }
 
 .input-wraper input {
-    width: 45rem;
+    width: 100%;
     background-color: var(--bg-color-search);
     border: none;
     border-radius: 5px;
+    font-family: "Mulish", sans-serif;
+    
+    font-weight: 600;
+    
     padding: 1rem;
-    margin-right: 4.5rem;
 }
 
-nav {
-    min-width: 17rem;
-    margin-right: 4.5rem;
+.input-wraper input::placeholder {
+    opacity: 0.56;
+    color: var(--color-search);
 }
 
-nav, ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 4.5rem;
+.avatar {
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 main {
     background-color: var(--bg-color-main);
+    overflow-y: scroll;
 }
