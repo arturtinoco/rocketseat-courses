@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background-color: white;
+    --text-color: #A54328;
+    --font-family: "Source Serif 4", serif;
+    --font-size-h1: 1.75rem;
+    --font-size-text: 0.875rem;
+    --font-size-button: 0.62rem;
+    --line-height-button: 1rem;
+    --button-background: #A54328;
+    --button-text-color: white;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size-text);
+    margin-block: 3.375rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2.125rem;
+    max-width: 19.937rem;
+    margin-inline: auto;
+    box-sizing: content-box;
+}
+
+.description {
+    text-align: justify;
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+}
+
+img {
+    width: 100%;
+    margin-block: 2.937rem;;
+}
+
+h2 {
+    font-size: var(--font-size-h1);
+    margin-bottom: 2.25rem;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+button {
+    background-color: var(--button-background);
+    color: var(--button-text-color);
+    width: 5.89rem;
+    height: 2rem;
+    font-size: var(--font-size-button);
+    line-height: var(--line-height-button);
+    border-radius: 5.67px;
+    border: none;
+}
