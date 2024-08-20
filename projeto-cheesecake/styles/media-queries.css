@@ -1,0 +1,11 @@
+@media screen and (min-width: 1024px) {
+     main {
+        flex-direction: row;
+        gap: 11.812rem;
+        margin: 0;
+     }
+
+     .description {
+        min-width: 27.187rem;
+     }
+}
