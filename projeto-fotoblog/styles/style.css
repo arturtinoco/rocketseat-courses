@@ -17,12 +17,13 @@
 }
 
 :root {
-    --bg-color-body: white;
-    --bg-color-search: #EEEEEE;
-    --bg-color-main: #F5F5F5;
-    --color-search: #3D3D3D;
-    --color-text: #202024;
-    --color-footer: #323238;
+    --hue: 240;
+    --bg-color-body: hsl(0, 0%, 100%);
+    --bg-color-search: hsl(0, 0%, 93%);
+    --bg-color-main: hsl(0, 0%, 96%);
+    --color-search: hsl(0, 0%, 24%);
+    --color-text: hsl(var(--hue), 60%, 43%);
+    --color-footer: hsl(var(--hue), 60%, 51%);
 
     font-family: "Mulish", sans-serif;
 }
