@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+@keyframes move {
+    from {
+        transform: translateY(var(--startY));
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
 :root {
     --bg-color-body: white;
     --bg-color-search: #EEEEEE;
@@ -123,6 +139,8 @@ main > div.container {
     background-color: var(--bg-color-body);
     border-radius: 8px;
     overflow: hidden;
+    --delay: .4s;
+    animation: appear .4s var(--delay) backwards;
 }
 
 .item img {
@@ -169,10 +187,4 @@ footer {
 footer p {
     color: var(--color-footer);
     font-weight: 600;
-}
-
-@keyframes move {
-    from {
-        transform: translateY(var(--startY));
-    }
 }
