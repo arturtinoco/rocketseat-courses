@@ -5,6 +5,7 @@
 :root {
     --bg-color-body: #FFFFFF;
     --bg-color-hea-foo: #065E7C;
+    --bg-color-search: #FFFFFF33;
 
     --text-color-all:#121214;
     --text-color-hea-foo: #FFFFFF;
@@ -30,22 +31,65 @@ body {
     height: 100vh;
 }
 
-header {
-    background-color: var(--bg-color-hea-foo);
-    color: var(--text-color-hea-foo);
-    padding: 1.5rem 3.5rem;
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
 }
 
-main {
-    display: flex;
+header {
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color-hea-foo);
+    color: var(--text-color-hea-foo);
+    gap: 1.5rem;
+    padding: 0.75rem 1.75rem;
+}
+
+header img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+header img:nth-child(3) {
+    border-radius: 50%;
+}
+
+header label {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+form {
     flex: 1;
+    max-width: 20rem;
+}
+
+.input-wraper input {
+    width: 100%;
+    background-color: var(--bg-color-search);
+    border: none;
+    border-radius: .25rem;
+    padding: 0.75rem .80rem;
+}
+
+.input-wraper input::placeholder {
+    color: var(--text-color-hea-foo);
+    font-family: "Mulish";
+    font-size: 1rem;
+    opacity: 100%;
 }
 
 main > div.container {
+    flex-direction: column;
     width: 100%;
 }
 
 footer {
+    justify-content: center;
+    align-items: center;
     background-color: var(--bg-color-hea-foo);
     color: var(--text-color-hea-foo);
 }
