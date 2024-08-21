@@ -4,8 +4,9 @@
 
 :root {
     --bg-color-body: #FFFFFF;
-    --bg-color-hea-foo: #065E7C;
+    --bg-color-header: #065E7C;
     --bg-color-search: #FFFFFF33;
+    --bg-color-footer: #387E96;
 
     --text-color-all:#121214;
     --text-color-hea-foo: #FFFFFF;
@@ -40,7 +41,7 @@ body {
 header {
     justify-content: space-between;
     align-items: center;
-    background-color: var(--bg-color-hea-foo);
+    background-color: var(--bg-color-header);
     color: var(--text-color-hea-foo);
     gap: 1.5rem;
     padding: 0.75rem 1.75rem;
@@ -85,11 +86,100 @@ form {
 main > div.container {
     flex-direction: column;
     width: 100%;
+
+}
+
+article {
+    margin-bottom: 2rem;;
+}
+
+article img#banner {
+    width: 100%;
+}
+
+.article-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    font-size: 1.1rem;
+    line-height: 160%;
+    font-weight: 500;
+    padding: 1.5rem 1.5rem 2rem;
+    margin: 0 auto;
+}
+
+.button-wraper {
+    display: flex;
+    gap: 1rem;
+}
+
+.article-header button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--bg-color-header);
+}
+
+article p {
+    text-indent: 2rem;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 160%;
+    padding-inline: 1.5rem;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 1.5rem 2.5rem;
+}
+
+aside h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+aside ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+aside li {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.aside-wraper {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: .5rem;
+}
+
+aside h3 {
+    color: var(--text-color-titles);
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+aside p {
+    font-size: .9rem;
+    line-height: 160%;
 }
 
 footer {
     justify-content: center;
     align-items: center;
-    background-color: var(--bg-color-hea-foo);
+    background-color: var(--bg-color-footer);
     color: var(--text-color-hea-foo);
+    font-weight: 500;
+    padding: 1rem;
 }
