@@ -1,0 +1,51 @@
+/* Mobile First */
+
+@charset "UTF-8";
+
+:root {
+    --bg-color-body: #FFFFFF;
+    --bg-color-hea-foo: #065E7C;
+
+    --text-color-all:#121214;
+    --text-color-hea-foo: #FFFFFF;
+    --text-color-titles: #202024;
+
+    font-family: "Mulish", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--bg-color-body);
+    color: var(--text-color-all);
+}
+
+.page {
+    display: grid;
+    grid-template-rows: max-content 1fr .5fr max-content;
+    height: 100vh;
+}
+
+header {
+    background-color: var(--bg-color-hea-foo);
+    color: var(--text-color-hea-foo);
+    padding: 1.5rem 3.5rem;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main > div.container {
+    width: 100%;
+}
+
+footer {
+    background-color: var(--bg-color-hea-foo);
+    color: var(--text-color-hea-foo);
+}
