@@ -44,6 +44,11 @@ nav ul {
     gap: 5em;
 }
 
+header {
+    --startY: -100%;
+    animation: move .4s;
+}
+
 nav ul {
     list-style: none;
     font-weight: bold;
@@ -113,15 +118,25 @@ main > div.container {
     margin-top: 2rem;
 }
 
-.gallery img {
-    width: 25rem;
-    height: 12rem;
-    border-radius: 8px 8px 0 0;
-}
 
 .item {
     background-color: var(--bg-color-body);
     border-radius: 8px;
+    overflow: hidden;
+}
+
+.item img {
+    width: 25rem;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    height: 12rem;
+    border-radius: 8px 8px 0 0;
+    transition: all 200ms ease-out;
+}
+
+.item img:hover {
+    filter: hue-rotate(7deg) contrast(101%) saturate(200%);
+    transform: scale(1.1) rotate(-2deg);
 }
 
 .details {
@@ -146,7 +161,18 @@ main > div.container {
     padding: 0.5rem;
 }
 
+footer {
+    --startY: 100%;
+    animation: move .4s;
+}
+
 footer p {
     color: var(--color-footer);
     font-weight: 600;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(var(--startY));
+    }
 }
