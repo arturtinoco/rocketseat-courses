@@ -1,0 +1,79 @@
+/* Desktop ~992px */
+
+@media screen and (min-width: 992px) {
+    .page {
+        grid-template-rows: max-content 1fr max-content;
+        grid-template-areas: 
+        "header header"
+        "content content"
+        "footer footer";
+    }
+
+    header {
+        justify-content: center;
+        gap: 1.5rem;
+        grid-area: header;
+        min-height: 4.5rem;
+    }
+    
+    form {
+        max-width: 67.75rem;
+    }
+
+    .content {
+        grid-area: content;
+        display: grid;
+        grid-template-areas: "main aside";
+        justify-content: center;
+        gap: 2rem;
+        padding: 2.5em 2em;
+    }
+
+    main {
+        grid-area: main;
+        max-width: 52rem;
+    }
+
+    article {
+        margin: 0;
+    }
+
+    article img#banner {
+        border-radius: 0.3rem;
+    }
+
+    .article-header {
+        flex-direction: row;
+        padding-inline: 0;
+    }
+
+    article p {
+        padding: 0;
+    }
+
+    aside.container {
+        flex: 0;
+        grid-area: aside;
+        min-width: 24.5rem;
+        max-width: 24.5rem;
+        max-height: 38.5rem;
+        padding: 0;
+    }
+
+    aside img {
+        max-height: 5.25rem;
+    }
+
+    .aside-wraper {
+        width: 100%;
+    }
+
+    aside p {
+        line-height: 130%;
+    }
+
+    footer {
+        grid-area: footer;
+        min-height: 4rem;
+    }
+}

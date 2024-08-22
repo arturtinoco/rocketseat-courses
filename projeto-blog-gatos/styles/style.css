@@ -132,7 +132,6 @@ article p {
 }
 
 aside {
-    display: flex;
     flex-direction: column;
     gap: 2rem;
     padding: 0 1.5rem 2.5rem;
@@ -159,7 +158,6 @@ aside li {
 .aside-wraper {
     display: flex;
     flex-direction: column;
-    justify-self: center;
     gap: .5rem;
 }
 
